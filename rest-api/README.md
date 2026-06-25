@@ -10,6 +10,7 @@ Everything REST API for a **Lead / Senior Backend** interview, with Express.js c
 | [`code-examples/`](./code-examples/README.md) | Practical **REST + Node + Express + AWS** code (CRUD, auth, validation, pagination, S3/DynamoDB, deploy) |
 | [`cheatsheet/`](./cheatsheet/rest-api-cheatsheet.md) | Dense reference: methods, status codes, conventions, headers, Express snippets |
 | [`rapid-fire/`](./rapid-fire/rest-api-rapid-fire.md) | ~50 top-rated quick Q&A definitions for fast recall |
+| [`sso/`](./sso/README.md) | Full SSO implementations with Node+Express: Google, AWS (Cognito), Azure (Entra ID), Facebook |
 
 ## The REST essentials a lead must nail
 1. **REST constraints:** client-server, **stateless**, cacheable, uniform interface, layered system, (code-on-demand optional).
