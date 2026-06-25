@@ -6,6 +6,8 @@
 
 This guide is written for **lead-level** interviews. The answers go beyond definitions — they explain *trade-offs*, *failure modes*, *real-time use cases*, and *what an interviewer wants to hear from someone who will own architecture and mentor a team*.
 
+> **Navigation:** Prefer focused, per-category files? See the [topic index](../topics/README.md). For quick definitions see the [rapid-fire round](../rapid-fire/AWS-NodeJS-Rapid-Fire-101-150.md), and for code see [code-examples](../code-examples/README.md) and the [cheat sheet](../cheatsheet/CHEATSHEET.md).
+
 ---
 
 ## How to use this document

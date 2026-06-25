@@ -6,28 +6,47 @@ Interview preparation material for a **Lead / Senior Backend Developer** role.
 
 ---
 
-## Contents
+## Repository structure
 
-### [Top 100 Interview Questions (Lead Level)](./AWS-NodeJS-Lead-Interview-100-Questions.md)
+```
+.
+├── guide/         # The full 100-question deep-dive guide (single file)
+├── topics/        # The same 100 questions split by category (8 files) + index
+├── rapid-fire/    # 50 quick-definition questions (Q101–Q150)
+├── code-examples/ # Runnable TypeScript reference implementations
+└── cheatsheet/    # One-page condensed cheat sheet for last-minute revision
+```
+
+| Folder | What's inside | Best for |
+|--------|---------------|----------|
+| [`guide/`](./guide/AWS-NodeJS-Lead-Interview-100-Questions.md) | All 100 deep-dive Q&As in one document | Reading end-to-end |
+| [`topics/`](./topics/README.md) | 100 questions split into 8 per-category files | Focused study by area |
+| [`rapid-fire/`](./rapid-fire/AWS-NodeJS-Rapid-Fire-101-150.md) | 50 quick-definition Q&As (Q101–Q150) | Fast recall / warm-up |
+| [`code-examples/`](./code-examples/README.md) | Graceful shutdown, circuit breaker, retry, idempotency, NestJS guards, CDK | Seeing patterns in code |
+| [`cheatsheet/`](./cheatsheet/CHEATSHEET.md) | Highest-yield points, condensed | Night-before revision |
+
+---
+
+## The 100-question guide (Q1–Q100)
 
 A comprehensive guide of **100 questions with detailed answers**, real-time use cases, trade-offs, and lead-level insights. Each answer goes beyond definitions to explain *why*, *when not to use*, failure modes, and what an interviewer expects from someone who will own architecture and mentor a team.
 
-The questions are organized into 8 cross-cutting categories:
+Read it as [one document](./guide/AWS-NodeJS-Lead-Interview-100-Questions.md) or by category via the [topic index](./topics/README.md):
 
-| # | Category | Questions | Focus |
-|---|----------|-----------|-------|
-| 1 | Core Node.js Runtime, Event Loop & Performance | Q1–Q15 | Event loop, memory leaks, GC, CPU-bound work, performance |
-| 2 | NestJS & Express.js Architecture | Q16–Q30 | DI, modules, guards/pipes/interceptors, caching, jobs, tracing |
-| 3 | AWS Compute & Serverless (Lambda, ECS, EC2, Fargate) | Q31–Q44 | Service selection, cold starts, deployments, IAM, Step Functions |
-| 4 | Scaling, Load Handling & Resilience | Q45–Q58 | Autoscaling, queues, retries, circuit breakers, cost optimization |
-| 5 | Databases & Caching (RDS, DynamoDB, ElastiCache) | Q59–Q71 | Data modeling, replicas, connection pooling, hot partitions |
-| 6 | Security & Identity | Q72–Q83 | IAM, Cognito, KMS, VPC, WAF, OWASP, JWT |
-| 7 | Monitoring, Logging & Observability | Q84–Q93 | CloudWatch, X-Ray, SLOs, alerting, RED/USE, structured logging |
-| 8 | System Design & Real-Time Use Cases | Q94–Q100 | End-to-end designs: APIs, notifications, pipelines, multi-tenant SaaS |
+| # | Category | Questions | Topic file |
+|---|----------|-----------|-----------|
+| 1 | Core Node.js Runtime, Event Loop & Performance | Q1–Q15 | [01](./topics/01-nodejs-runtime-performance.md) |
+| 2 | NestJS & Express.js Architecture | Q16–Q30 | [02](./topics/02-nestjs-expressjs.md) |
+| 3 | AWS Compute & Serverless (Lambda, ECS, EC2, Fargate) | Q31–Q44 | [03](./topics/03-aws-compute-serverless.md) |
+| 4 | Scaling, Load Handling & Resilience | Q45–Q58 | [04](./topics/04-scaling-load-resilience.md) |
+| 5 | Databases & Caching (RDS, DynamoDB, ElastiCache) | Q59–Q71 | [05](./topics/05-databases-caching.md) |
+| 6 | Security & Identity | Q72–Q83 | [06](./topics/06-security-identity.md) |
+| 7 | Monitoring, Logging & Observability | Q84–Q93 | [07](./topics/07-monitoring-logging-observability.md) |
+| 8 | System Design & Real-Time Use Cases | Q94–Q100 | [08](./topics/08-system-design-usecases.md) |
 
-### [Rapid-Fire Round (Q101–Q150)](./rapid-fire/AWS-NodeJS-Rapid-Fire-101-150.md)
+## Rapid-fire round (Q101–Q150)
 
-A complementary set of **50 quick-definition questions** for fast recall and last-minute revision. These are the crisp 1–3 sentence answers interviewers expect when firing questions in quick succession.
+A complementary set of **50 quick-definition questions** for fast recall — the crisp 1–3 sentence answers interviewers expect when firing questions in quick succession. See [rapid-fire/](./rapid-fire/AWS-NodeJS-Rapid-Fire-101-150.md).
 
 | Group | Questions | Focus |
 |-------|-----------|-------|
@@ -36,6 +55,10 @@ A complementary set of **50 quick-definition questions** for fast recall and las
 | AWS Core Services | Q123–Q136 | S3/EBS/EFS, SQS/SNS, Kinesis, load balancers, ECS roles, API Gateway |
 | Scaling, Resilience & Networking | Q137–Q143 | Scaling types, sticky sessions, cold starts, RTO/RPO |
 | Security, Data & Observability | Q144–Q150 | AuthN vs AuthZ, least privilege, hashing vs encryption, consistency |
+
+## Code examples
+
+Runnable TypeScript reference implementations of the key patterns — see [code-examples/](./code-examples/README.md): graceful shutdown, circuit breaker (`opossum`), retry with backoff + jitter, bounded concurrency, idempotency via DynamoDB, pre-signed S3 uploads, NestJS JWT/roles guards + exception filter + correlation IDs, and an AWS CDK Fargate service stack.
 
 ---
 
