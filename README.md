@@ -17,6 +17,7 @@ Interview preparation material for a **Lead / Senior Backend Developer** role.
 ├── practical-usecases/ # Per-service AWS+Node.js practical guides with SDK v3 code
 ├── microservices-nodejs/ # Microservice patterns with Node.js (diagrams, code, pros/cons)
 ├── nestjs/        # NestJS pack: detailed interview questions, cheat sheet, best practices
+├── docker/        # Docker pack: Q&As (basic/medium/advanced), cheat sheet, Node+AWS use cases, rapid fire
 ├── code-examples/ # Runnable TypeScript reference implementations
 └── cheatsheet/    # One-page condensed cheat sheet for last-minute revision
 ```
@@ -30,6 +31,7 @@ Interview preparation material for a **Lead / Senior Backend Developer** role.
 | [`practical-usecases/`](./practical-usecases/README.md) | Per-service practical guides: how each AWS service is used with Node.js, with runnable SDK v3 code | Hands-on "how do I use X with Node?" |
 | [`microservices-nodejs/`](./microservices-nodejs/README.md) | 17 microservice patterns with Node.js — diagrams, code, pros/cons, real use cases | Architecture & microservices rounds |
 | [`nestjs/`](./nestjs/README.md) | NestJS deep-dive: 60 detailed interview Q&As (by topic), cheat sheet, best practices | NestJS-focused rounds |
+| [`docker/`](./docker/README.md) | Docker: basic/medium/advanced Q&As, cheat sheet, Node+AWS use cases with code, rapid fire | Docker & containerization rounds |
 | [`code-examples/`](./code-examples/README.md) | Graceful shutdown, circuit breaker, retry, idempotency, NestJS guards, CDK | Seeing patterns in code |
 | [`cheatsheet/`](./cheatsheet/CHEATSHEET.md) | Highest-yield points, condensed | Night-before revision |
 
