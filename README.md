@@ -25,6 +25,18 @@ The questions are organized into 8 cross-cutting categories:
 | 7 | Monitoring, Logging & Observability | Q84–Q93 | CloudWatch, X-Ray, SLOs, alerting, RED/USE, structured logging |
 | 8 | System Design & Real-Time Use Cases | Q94–Q100 | End-to-end designs: APIs, notifications, pipelines, multi-tenant SaaS |
 
+### [Rapid-Fire Round (Q101–Q150)](./rapid-fire/AWS-NodeJS-Rapid-Fire-101-150.md)
+
+A complementary set of **50 quick-definition questions** for fast recall and last-minute revision. These are the crisp 1–3 sentence answers interviewers expect when firing questions in quick succession.
+
+| Group | Questions | Focus |
+|-------|-----------|-------|
+| Node.js & JavaScript Runtime | Q101–Q112 | ESM vs CJS, streams, promises, AbortController, AsyncLocalStorage |
+| NestJS & Express.js | Q113–Q122 | Providers, scopes, guards vs middleware, DTOs, adapters |
+| AWS Core Services | Q123–Q136 | S3/EBS/EFS, SQS/SNS, Kinesis, load balancers, ECS roles, API Gateway |
+| Scaling, Resilience & Networking | Q137–Q143 | Scaling types, sticky sessions, cold starts, RTO/RPO |
+| Security, Data & Observability | Q144–Q150 | AuthN vs AuthZ, least privilege, hashing vs encryption, consistency |
+
 ---
 
 ## How to Use
