@@ -10,6 +10,7 @@ A focused AWS knowledge pack for **Lead / Senior Backend** interviews, written f
 | [aws-services-quick-review.md](./aws-services-quick-review.md) | Per-service review: what it is, when to use, key features, Node.js tie-in, gotchas | Refreshing a specific service |
 | [aws-services-comparison.md](./aws-services-comparison.md) | Head-to-head decision tables (compute, messaging, databases, storage, caching, auth, IaC, observability) | "X vs Y, which and why?" questions |
 | [aws-services-realtime-scenarios.md](./aws-services-realtime-scenarios.md) | 15 real-world scenarios with recommended architectures + lead-level reasoning | System-design rounds |
+| [aws-services-realtime-scenarios-detailed.md](./aws-services-realtime-scenarios-detailed.md) | **Long-form** interview walkthroughs of the same 15 scenarios — how to actually explain each one out loud, with deep reasoning, failure modes, and cost/scale | Practicing spoken system-design answers |
 
 ## Related material in this repo
 
