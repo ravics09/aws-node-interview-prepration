@@ -13,6 +13,7 @@ Interview preparation material for a **Lead / Senior Backend Developer** role.
 ├── guide/         # The full 100-question deep-dive guide (single file)
 ├── topics/        # The same 100 questions split by category (8 files) + index
 ├── rapid-fire/    # 50 quick-definition questions (Q101–Q150)
+├── aws/           # AWS-focused pack: cheat sheet, quick review, comparisons, scenarios
 ├── code-examples/ # Runnable TypeScript reference implementations
 └── cheatsheet/    # One-page condensed cheat sheet for last-minute revision
 ```
@@ -22,6 +23,7 @@ Interview preparation material for a **Lead / Senior Backend Developer** role.
 | [`guide/`](./guide/AWS-NodeJS-Lead-Interview-100-Questions.md) | All 100 deep-dive Q&As in one document | Reading end-to-end |
 | [`topics/`](./topics/README.md) | 100 questions split into 8 per-category files | Focused study by area |
 | [`rapid-fire/`](./rapid-fire/AWS-NodeJS-Rapid-Fire-101-150.md) | 50 quick-definition Q&As (Q101–Q150) | Fast recall / warm-up |
+| [`aws/`](./aws/README.md) | AWS cheat sheet, per-service quick review, service comparisons, real-time scenarios | AWS-specific & system-design rounds |
 | [`code-examples/`](./code-examples/README.md) | Graceful shutdown, circuit breaker, retry, idempotency, NestJS guards, CDK | Seeing patterns in code |
 | [`cheatsheet/`](./cheatsheet/CHEATSHEET.md) | Highest-yield points, condensed | Night-before revision |
 
@@ -55,6 +57,17 @@ A complementary set of **50 quick-definition questions** for fast recall — the
 | AWS Core Services | Q123–Q136 | S3/EBS/EFS, SQS/SNS, Kinesis, load balancers, ECS roles, API Gateway |
 | Scaling, Resilience & Networking | Q137–Q143 | Scaling types, sticky sessions, cold starts, RTO/RPO |
 | Security, Data & Observability | Q144–Q150 | AuthN vs AuthZ, least privilege, hashing vs encryption, consistency |
+
+## AWS reference pack
+
+A dedicated, AWS-focused knowledge pack for the cloud-heavy parts of the interview — see [aws/](./aws/README.md):
+
+| Doc | Use |
+|-----|-----|
+| [aws-cheatsheet.md](./aws/aws-cheatsheet.md) | Dense recall of services, limits, and facts |
+| [aws-services-quick-review.md](./aws/aws-services-quick-review.md) | Per-service review with Node.js tie-ins and gotchas |
+| [aws-services-comparison.md](./aws/aws-services-comparison.md) | Head-to-head decision tables ("X vs Y, which and why?") |
+| [aws-services-realtime-scenarios.md](./aws/aws-services-realtime-scenarios.md) | 15 real-world scenarios with architectures and reasoning |
 
 ## Code examples
 
